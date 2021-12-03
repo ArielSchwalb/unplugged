@@ -333,6 +333,11 @@
     flex-flow: row wrap;
   }
   
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+  
   .features p {
     text-align: center;
     margin: 0;
@@ -672,6 +677,10 @@
       width: 45%;
     }
   
+    .map figure {
+      padding-bottom: 45.5%;
+    }
+  
     .contact-section .content-wrapper h2 {
       width: 80%;
     }
@@ -772,14 +781,16 @@
     .reviews article div {
       width: 42%;
     }
-    
+  
     footer h4 {
       font-size: 1.875em;
     }
-  
     /* ==========================================================================
     About Page
     ========================================================================== */
+    .map figure {
+      padding-bottom: 37.5%;
+    }
   
     .mission h2,
     .contact-section .content-wrapper h2 {
@@ -798,7 +809,7 @@
       width: 100%;
       font-size: 3em;
     }
-      
+  
     .faq h4,
     .faq p {
         font-size: 1.125em;
