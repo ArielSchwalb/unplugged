@@ -114,7 +114,6 @@
   ol {
     list-style-type: none;
     margin: 0;
-    padding: 0;
   }
    
   a {
@@ -401,8 +400,18 @@
     left: 0; 
   }
   
+  .contact-section {
+    background-color: #2a423a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   
-
+  .contact-content p {
+    margin: 0;
+  }
+  
   /* ==========================================================================
      FAQ Page
      ========================================================================== */
@@ -432,9 +441,14 @@
     margin-bottom: 50px;
   }
   
+  .faq-content {
+    margin-bottom: 50px;
+  }
+  
   .faq-content h4 {
     line-height: 1.333;
   }
+  
   /* ==========================================================================
      Helper classes
      ========================================================================== */
@@ -573,8 +587,8 @@
   
     .hero-area {
       min-height: 600px;
-    }
-    
+    }  
+  
     .hero-area h1 {
       font-size: 3em;
       line-height: 1;
@@ -783,7 +797,7 @@
     }
     
     /* Reviews */
-    
+  
     .reviews h2 {
       padding-bottom: 50px; 
     }
@@ -795,7 +809,6 @@
     footer h4 {
       font-size: 1.875em;
     }
-  
     /* ==========================================================================
     About Page
     ========================================================================== */
